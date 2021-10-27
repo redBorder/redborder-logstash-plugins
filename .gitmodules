@@ -1,0 +1,45 @@
+[submodule "logstash-filter-apstate"]
+	path = logstash-filter-apstate
+	url = git@github.com:redBorder/logstash-filter-apstate.git
+[submodule "logstash-filter-bulkstats"]
+	path = logstash-filter-bulkstats
+	url = git@github.com:redBorder/logstash-filter-bulkstats.git
+[submodule "logstash-filter-darklist"]
+	path = logstash-filter-darklist
+	url = git@github.com:redBorder/logstash-filter-darklist.git
+[submodule "logstash-filter-intrusion"]
+	path = logstash-filter-intrusion
+	url = git@github.com:redBorder/logstash-filter-intrusion.git
+[submodule "logstash-filter-location"]
+	path = logstash-filter-location
+	url = git@github.com:redBorder/logstash-filter-location.git
+[submodule "logstash-filter-macscrambling"]
+	path = logstash-filter-macscrambling
+	url = git@github.com:redBorder/logstash-filter-macscrambling.git
+[submodule "logstash-filter-macvendorsenrich"]
+	path = logstash-filter-macvendorsenrich
+	url = git@github.com:redBorder/logstash-filter-macvendorsenrich.git
+[submodule "logstash-filter-meraki"]
+	path = logstash-filter-meraki
+	url = git@github.com:redBorder/logstash-filter-meraki.git
+[submodule "logstash-filter-mobility"]
+	path = logstash-filter-mobility
+	url = git@github.com:redBorder/logstash-filter-mobility.git
+[submodule "logstash-filter-mongocve"]
+        path = logstash-filter-mongocve
+        url = git@github.com:redBorder/logstash-filter-mongocve.git
+[submodule "logstash-filter-netflowenrich"]
+	path = logstash-filter-netflowenrich
+	url = git@github.com:redBorder/logstash-filter-netflowenrich.git
+[submodule "logstash-filter-nmsp"]
+	path = logstash-filter-nmsp
+	url = git@github.com:redBorder/logstash-filter-nmsp.git
+[submodule "logstash-filter-radius"]
+	path = logstash-filter-radius
+	url = git@github.com:redBorder/logstash-filter-radius.git
+[submodule "logstash-input-rbwindow"]
+	path = logstash-input-rbwindow
+	url = git@github.com:redBorder/logstash-input-rbwindow.git
+[submodule "logstash-input-redfish"]
+	path = logstash-input-redfish
+	url = git@github.com:redBorder/logstash-input-redfish.git
