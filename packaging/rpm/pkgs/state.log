@@ -1,0 +1,688 @@
+2021-10-28 16:05:50,783 - Mock Version: 2.12
+2021-10-28 16:05:53,871 - Start: yum update
+2021-10-28 16:05:58,170 - Finish: yum update
+2021-10-28 16:05:58,183 - Finish: chroot init
+2021-10-28 16:05:58,193 - Start: buildsrpm
+2021-10-28 16:05:58,198 - Start: rpmbuild -bs
+2021-10-28 16:05:58,499 - Finish: rpmbuild -bs
+2021-10-28 16:05:58,508 - Finish: buildsrpm
+2021-10-28 16:05:58,514 - Start: clean chroot
+2021-10-28 16:06:00,965 - Finish: clean chroot
+2021-10-28 16:06:00,966 - Finish: run
+2021-10-28 16:06:03,927 - Mock Version: 2.12
+2021-10-28 16:06:07,583 - Start: yum update
+2021-10-28 16:06:11,846 - Finish: yum update
+2021-10-28 16:06:11,870 - Finish: chroot init
+2021-10-28 16:06:11,875 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:06:11,878 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:06:15,235 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:06:15,236 - Start: Outputting list of installed packages
+2021-10-28 16:06:15,441 - Finish: Outputting list of installed packages
+2021-10-28 16:06:15,441 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:06:46,177 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:06:46,177 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:06:46,179 - Start: clean chroot
+2021-10-28 16:06:54,261 - Finish: clean chroot
+2021-10-28 16:22:50,219 - Mock Version: 2.12
+2021-10-28 16:22:53,506 - Start: yum update
+2021-10-28 16:22:56,931 - Finish: yum update
+2021-10-28 16:22:56,936 - Finish: chroot init
+2021-10-28 16:22:56,940 - Start: buildsrpm
+2021-10-28 16:22:56,942 - Start: rpmbuild -bs
+2021-10-28 16:22:57,249 - Finish: rpmbuild -bs
+2021-10-28 16:22:57,250 - Finish: buildsrpm
+2021-10-28 16:22:57,252 - Start: clean chroot
+2021-10-28 16:22:59,673 - Finish: clean chroot
+2021-10-28 16:22:59,673 - Finish: run
+2021-10-28 16:23:02,625 - Mock Version: 2.12
+2021-10-28 16:23:05,701 - Start: yum update
+2021-10-28 16:23:09,088 - Finish: yum update
+2021-10-28 16:23:09,094 - Finish: chroot init
+2021-10-28 16:23:09,096 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:23:09,097 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:23:13,311 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:23:13,312 - Start: Outputting list of installed packages
+2021-10-28 16:23:13,525 - Finish: Outputting list of installed packages
+2021-10-28 16:23:13,525 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:23:46,631 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:23:46,631 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:23:46,633 - Start: clean chroot
+2021-10-28 16:23:54,138 - Finish: clean chroot
+2021-10-28 16:25:18,226 - Mock Version: 2.12
+2021-10-28 16:25:21,683 - Start: yum update
+2021-10-28 16:25:24,658 - Finish: yum update
+2021-10-28 16:25:24,663 - Finish: chroot init
+2021-10-28 16:25:24,667 - Start: buildsrpm
+2021-10-28 16:25:24,670 - Start: rpmbuild -bs
+2021-10-28 16:25:24,930 - Finish: rpmbuild -bs
+2021-10-28 16:25:24,931 - Finish: buildsrpm
+2021-10-28 16:25:24,933 - Start: clean chroot
+2021-10-28 16:25:27,332 - Finish: clean chroot
+2021-10-28 16:25:27,333 - Finish: run
+2021-10-28 16:25:30,310 - Mock Version: 2.12
+2021-10-28 16:25:34,134 - Start: yum update
+2021-10-28 16:25:37,018 - Finish: yum update
+2021-10-28 16:25:37,023 - Finish: chroot init
+2021-10-28 16:25:37,025 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:25:37,026 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:25:41,009 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:25:41,009 - Start: Outputting list of installed packages
+2021-10-28 16:25:41,216 - Finish: Outputting list of installed packages
+2021-10-28 16:25:41,216 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:26:09,493 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:26:09,493 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:26:09,495 - Start: clean chroot
+2021-10-28 16:26:17,891 - Finish: clean chroot
+2021-10-28 16:26:55,920 - Mock Version: 2.12
+2021-10-28 16:27:00,810 - Start: yum update
+2021-10-28 16:27:03,455 - Finish: yum update
+2021-10-28 16:27:03,460 - Finish: chroot init
+2021-10-28 16:27:03,464 - Start: buildsrpm
+2021-10-28 16:27:03,467 - Start: rpmbuild -bs
+2021-10-28 16:27:03,724 - Finish: rpmbuild -bs
+2021-10-28 16:27:03,726 - Finish: buildsrpm
+2021-10-28 16:27:03,727 - Start: clean chroot
+2021-10-28 16:27:06,147 - Finish: clean chroot
+2021-10-28 16:27:06,148 - Finish: run
+2021-10-28 16:27:09,120 - Mock Version: 2.12
+2021-10-28 16:27:13,199 - Start: yum update
+2021-10-28 16:27:16,708 - Finish: yum update
+2021-10-28 16:27:16,713 - Finish: chroot init
+2021-10-28 16:27:16,715 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:27:16,716 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:27:19,957 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:27:19,957 - Start: Outputting list of installed packages
+2021-10-28 16:27:20,163 - Finish: Outputting list of installed packages
+2021-10-28 16:27:20,164 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:27:47,145 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:27:47,145 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-28 16:27:47,147 - Start: clean chroot
+2021-10-28 16:27:55,176 - Finish: clean chroot
+2021-10-29 08:15:51,890 - Mock Version: 2.12
+2021-10-29 08:15:55,771 - Start: yum update
+2021-10-29 08:16:04,201 - Start: creating root cache
+2021-10-29 08:16:08,811 - Finish: creating root cache
+2021-10-29 08:16:08,812 - Finish: yum update
+2021-10-29 08:16:08,839 - Finish: chroot init
+2021-10-29 08:16:08,859 - Start: buildsrpm
+2021-10-29 08:16:08,874 - Start: rpmbuild -bs
+2021-10-29 08:16:09,225 - Finish: rpmbuild -bs
+2021-10-29 08:16:09,227 - Finish: buildsrpm
+2021-10-29 08:16:09,228 - Start: clean chroot
+2021-10-29 08:16:11,805 - Finish: clean chroot
+2021-10-29 08:16:11,805 - Finish: run
+2021-10-29 08:16:14,867 - Mock Version: 2.12
+2021-10-29 08:16:17,976 - Start: yum update
+2021-10-29 08:16:21,883 - Finish: yum update
+2021-10-29 08:16:21,900 - Finish: chroot init
+2021-10-29 08:16:21,906 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:16:21,909 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:16:25,220 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:16:25,221 - Start: Outputting list of installed packages
+2021-10-29 08:16:25,425 - Finish: Outputting list of installed packages
+2021-10-29 08:16:25,425 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:16:55,830 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:16:55,831 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:16:55,835 - Start: clean chroot
+2021-10-29 08:17:04,487 - Finish: clean chroot
+2021-10-29 08:18:13,134 - Mock Version: 2.12
+2021-10-29 08:18:17,348 - Start: yum update
+2021-10-29 08:18:20,660 - Finish: yum update
+2021-10-29 08:18:20,665 - Finish: chroot init
+2021-10-29 08:18:20,669 - Start: buildsrpm
+2021-10-29 08:18:20,672 - Start: rpmbuild -bs
+2021-10-29 08:18:20,967 - Finish: rpmbuild -bs
+2021-10-29 08:18:20,969 - Finish: buildsrpm
+2021-10-29 08:18:20,970 - Start: clean chroot
+2021-10-29 08:18:23,355 - Finish: clean chroot
+2021-10-29 08:18:23,356 - Finish: run
+2021-10-29 08:18:26,319 - Mock Version: 2.12
+2021-10-29 08:18:29,379 - Start: yum update
+2021-10-29 08:18:32,711 - Finish: yum update
+2021-10-29 08:18:32,716 - Finish: chroot init
+2021-10-29 08:18:32,718 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:18:32,719 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:18:36,053 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:18:36,053 - Start: Outputting list of installed packages
+2021-10-29 08:18:36,264 - Finish: Outputting list of installed packages
+2021-10-29 08:18:36,265 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:19:01,469 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:19:01,469 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:19:01,471 - Start: clean chroot
+2021-10-29 08:19:12,325 - Finish: clean chroot
+2021-10-29 08:19:56,765 - Mock Version: 2.12
+2021-10-29 08:20:00,808 - Start: yum update
+2021-10-29 08:20:05,676 - Finish: yum update
+2021-10-29 08:20:05,681 - Finish: chroot init
+2021-10-29 08:20:05,685 - Start: buildsrpm
+2021-10-29 08:20:05,688 - Start: rpmbuild -bs
+2021-10-29 08:20:05,993 - Finish: rpmbuild -bs
+2021-10-29 08:20:05,995 - Finish: buildsrpm
+2021-10-29 08:20:05,996 - Start: clean chroot
+2021-10-29 08:20:08,455 - Finish: clean chroot
+2021-10-29 08:20:08,455 - Finish: run
+2021-10-29 08:20:11,417 - Mock Version: 2.12
+2021-10-29 08:20:15,207 - Start: yum update
+2021-10-29 08:20:18,754 - Finish: yum update
+2021-10-29 08:20:18,759 - Finish: chroot init
+2021-10-29 08:20:18,761 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:20:18,762 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:20:22,406 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:20:22,406 - Start: Outputting list of installed packages
+2021-10-29 08:20:22,611 - Finish: Outputting list of installed packages
+2021-10-29 08:20:22,612 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:20:50,018 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:20:50,018 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:20:50,020 - Start: clean chroot
+2021-10-29 08:20:58,502 - Finish: clean chroot
+2021-10-29 08:22:29,314 - Mock Version: 2.12
+2021-10-29 08:22:32,595 - Start: yum update
+2021-10-29 08:22:36,446 - Finish: yum update
+2021-10-29 08:22:36,451 - Finish: chroot init
+2021-10-29 08:22:36,455 - Start: buildsrpm
+2021-10-29 08:22:36,458 - Start: rpmbuild -bs
+2021-10-29 08:22:36,756 - Finish: rpmbuild -bs
+2021-10-29 08:22:36,758 - Finish: buildsrpm
+2021-10-29 08:22:36,759 - Start: clean chroot
+2021-10-29 08:22:39,141 - Finish: clean chroot
+2021-10-29 08:22:39,142 - Finish: run
+2021-10-29 08:22:42,108 - Mock Version: 2.12
+2021-10-29 08:22:45,907 - Start: yum update
+2021-10-29 08:22:49,986 - Finish: yum update
+2021-10-29 08:22:49,991 - Finish: chroot init
+2021-10-29 08:22:49,993 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:22:49,994 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:22:53,131 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:22:53,132 - Start: Outputting list of installed packages
+2021-10-29 08:22:53,342 - Finish: Outputting list of installed packages
+2021-10-29 08:22:53,343 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:23:39,747 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:23:39,747 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:23:39,749 - Start: clean chroot
+2021-10-29 08:23:49,610 - Finish: clean chroot
+2021-10-29 08:28:37,979 - Mock Version: 2.12
+2021-10-29 08:28:41,461 - Start: yum update
+2021-10-29 08:28:46,611 - Finish: yum update
+2021-10-29 08:28:46,631 - Finish: chroot init
+2021-10-29 08:28:46,635 - Start: buildsrpm
+2021-10-29 08:28:46,638 - Start: rpmbuild -bs
+2021-10-29 08:28:46,932 - Finish: rpmbuild -bs
+2021-10-29 08:28:46,934 - Finish: buildsrpm
+2021-10-29 08:28:46,935 - Start: clean chroot
+2021-10-29 08:28:49,488 - Finish: clean chroot
+2021-10-29 08:28:49,489 - Finish: run
+2021-10-29 08:28:52,536 - Mock Version: 2.12
+2021-10-29 08:28:56,450 - Start: yum update
+2021-10-29 08:29:00,483 - Finish: yum update
+2021-10-29 08:29:00,488 - Finish: chroot init
+2021-10-29 08:29:00,490 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:29:00,491 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:29:05,277 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:29:05,278 - Start: Outputting list of installed packages
+2021-10-29 08:29:05,496 - Finish: Outputting list of installed packages
+2021-10-29 08:29:05,497 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:29:32,145 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:29:32,145 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:29:32,147 - Start: clean chroot
+2021-10-29 08:29:39,579 - Finish: clean chroot
+2021-10-29 08:29:56,373 - Mock Version: 2.12
+2021-10-29 08:29:59,792 - Start: yum update
+2021-10-29 08:30:04,272 - Finish: yum update
+2021-10-29 08:30:04,277 - Finish: chroot init
+2021-10-29 08:30:04,281 - Start: buildsrpm
+2021-10-29 08:30:04,284 - Start: rpmbuild -bs
+2021-10-29 08:30:04,717 - Finish: rpmbuild -bs
+2021-10-29 08:30:04,719 - Finish: buildsrpm
+2021-10-29 08:30:04,720 - Start: clean chroot
+2021-10-29 08:30:07,188 - Finish: clean chroot
+2021-10-29 08:30:07,189 - Finish: run
+2021-10-29 08:30:10,207 - Mock Version: 2.12
+2021-10-29 08:30:13,768 - Start: yum update
+2021-10-29 08:30:17,110 - Finish: yum update
+2021-10-29 08:30:17,115 - Finish: chroot init
+2021-10-29 08:30:17,117 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:30:17,118 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:30:20,564 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:30:20,565 - Start: Outputting list of installed packages
+2021-10-29 08:30:20,776 - Finish: Outputting list of installed packages
+2021-10-29 08:30:20,776 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:30:51,231 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:30:51,231 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:30:51,233 - Start: clean chroot
+2021-10-29 08:30:59,805 - Finish: clean chroot
+2021-10-29 08:36:02,255 - Mock Version: 2.12
+2021-10-29 08:36:06,083 - Start: yum update
+2021-10-29 08:36:09,453 - Finish: yum update
+2021-10-29 08:36:09,458 - Finish: chroot init
+2021-10-29 08:36:09,462 - Start: buildsrpm
+2021-10-29 08:36:09,465 - Start: rpmbuild -bs
+2021-10-29 08:36:09,757 - Finish: rpmbuild -bs
+2021-10-29 08:36:09,758 - Finish: buildsrpm
+2021-10-29 08:36:09,760 - Start: clean chroot
+2021-10-29 08:36:12,150 - Finish: clean chroot
+2021-10-29 08:36:12,151 - Finish: run
+2021-10-29 08:36:15,116 - Mock Version: 2.12
+2021-10-29 08:36:18,793 - Start: yum update
+2021-10-29 08:36:22,051 - Finish: yum update
+2021-10-29 08:36:22,056 - Finish: chroot init
+2021-10-29 08:36:22,058 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:36:22,059 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:36:25,404 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:36:25,405 - Start: Outputting list of installed packages
+2021-10-29 08:36:25,668 - Finish: Outputting list of installed packages
+2021-10-29 08:36:25,669 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:36:53,378 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:36:53,378 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:36:53,380 - Start: clean chroot
+2021-10-29 08:37:01,502 - Finish: clean chroot
+2021-10-29 08:37:37,221 - Mock Version: 2.12
+2021-10-29 08:37:42,138 - Start: yum update
+2021-10-29 08:37:46,065 - Finish: yum update
+2021-10-29 08:37:46,070 - Finish: chroot init
+2021-10-29 08:37:46,074 - Start: buildsrpm
+2021-10-29 08:37:46,077 - Start: rpmbuild -bs
+2021-10-29 08:37:46,373 - Finish: rpmbuild -bs
+2021-10-29 08:37:46,375 - Finish: buildsrpm
+2021-10-29 08:37:46,376 - Start: clean chroot
+2021-10-29 08:37:48,881 - Finish: clean chroot
+2021-10-29 08:37:48,881 - Finish: run
+2021-10-29 08:37:51,853 - Mock Version: 2.12
+2021-10-29 08:37:55,016 - Start: yum update
+2021-10-29 08:37:58,301 - Finish: yum update
+2021-10-29 08:37:58,306 - Finish: chroot init
+2021-10-29 08:37:58,308 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:37:58,309 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:38:01,423 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:38:01,423 - Start: Outputting list of installed packages
+2021-10-29 08:38:01,632 - Finish: Outputting list of installed packages
+2021-10-29 08:38:01,633 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:38:29,549 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:38:29,549 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:38:29,551 - Start: clean chroot
+2021-10-29 08:38:37,790 - Finish: clean chroot
+2021-10-29 08:39:54,092 - Mock Version: 2.12
+2021-10-29 08:39:59,172 - Start: yum update
+2021-10-29 08:40:03,173 - Finish: yum update
+2021-10-29 08:40:03,178 - Finish: chroot init
+2021-10-29 08:40:03,182 - Start: buildsrpm
+2021-10-29 08:40:03,185 - Start: rpmbuild -bs
+2021-10-29 08:40:03,483 - Finish: rpmbuild -bs
+2021-10-29 08:40:03,485 - Finish: buildsrpm
+2021-10-29 08:40:03,486 - Start: clean chroot
+2021-10-29 08:40:05,920 - Finish: clean chroot
+2021-10-29 08:40:05,921 - Finish: run
+2021-10-29 08:40:08,897 - Mock Version: 2.12
+2021-10-29 08:40:12,084 - Start: yum update
+2021-10-29 08:40:15,313 - Finish: yum update
+2021-10-29 08:40:15,318 - Finish: chroot init
+2021-10-29 08:40:15,320 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:40:15,321 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:40:19,988 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:40:19,989 - Start: Outputting list of installed packages
+2021-10-29 08:40:20,205 - Finish: Outputting list of installed packages
+2021-10-29 08:40:20,205 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:40:44,752 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:40:44,752 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:40:44,754 - Start: clean chroot
+2021-10-29 08:40:52,619 - Finish: clean chroot
+2021-10-29 08:43:56,762 - Mock Version: 2.12
+2021-10-29 08:44:00,459 - Start: yum update
+2021-10-29 08:44:04,989 - Finish: yum update
+2021-10-29 08:44:05,002 - Finish: chroot init
+2021-10-29 08:44:05,012 - Start: buildsrpm
+2021-10-29 08:44:05,018 - Start: rpmbuild -bs
+2021-10-29 08:44:05,318 - Finish: rpmbuild -bs
+2021-10-29 08:44:05,320 - Finish: buildsrpm
+2021-10-29 08:44:05,321 - Start: clean chroot
+2021-10-29 08:44:07,752 - Finish: clean chroot
+2021-10-29 08:44:07,752 - Finish: run
+2021-10-29 08:44:10,719 - Mock Version: 2.12
+2021-10-29 08:44:14,148 - Start: yum update
+2021-10-29 08:44:17,298 - Finish: yum update
+2021-10-29 08:44:17,303 - Finish: chroot init
+2021-10-29 08:44:17,305 - Start: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:44:17,306 - Start: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:44:21,424 - Finish: build setup for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:44:21,424 - Start: Outputting list of installed packages
+2021-10-29 08:44:21,633 - Finish: Outputting list of installed packages
+2021-10-29 08:44:21,634 - Start: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:44:47,876 - Finish: rpmbuild redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:44:47,876 - Finish: build phase for redborder-logstash-plugins-6d70ea-1.el7.rb.src.rpm
+2021-10-29 08:44:47,878 - Start: clean chroot
+2021-10-29 08:44:55,592 - Finish: clean chroot
+2021-10-29 08:55:39,548 - Mock Version: 2.12
+2021-10-29 08:55:43,694 - Start: yum update
+2021-10-29 08:55:46,319 - Finish: yum update
+2021-10-29 08:55:46,324 - Finish: chroot init
+2021-10-29 08:55:46,328 - Start: buildsrpm
+2021-10-29 08:55:46,331 - Start: rpmbuild -bs
+2021-10-29 08:55:46,645 - Finish: rpmbuild -bs
+2021-10-29 08:55:46,646 - Finish: buildsrpm
+2021-10-29 08:55:46,648 - Start: clean chroot
+2021-10-29 08:55:49,083 - Finish: clean chroot
+2021-10-29 08:55:49,084 - Finish: run
+2021-10-29 08:55:52,237 - Mock Version: 2.12
+2021-10-29 08:55:56,110 - Start: yum update
+2021-10-29 08:55:59,268 - Finish: yum update
+2021-10-29 08:55:59,277 - Finish: chroot init
+2021-10-29 08:55:59,280 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 08:55:59,281 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 08:56:02,737 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 08:56:02,738 - Start: Outputting list of installed packages
+2021-10-29 08:56:02,960 - Finish: Outputting list of installed packages
+2021-10-29 08:56:02,960 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 08:56:28,194 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 08:56:28,194 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 08:56:28,196 - Start: clean chroot
+2021-10-29 08:56:36,089 - Finish: clean chroot
+2021-10-29 09:00:10,402 - Mock Version: 2.12
+2021-10-29 09:00:13,725 - Start: yum update
+2021-10-29 09:00:17,967 - Finish: yum update
+2021-10-29 09:00:17,981 - Finish: chroot init
+2021-10-29 09:00:17,990 - Start: buildsrpm
+2021-10-29 09:00:17,996 - Start: rpmbuild -bs
+2021-10-29 09:00:18,307 - Finish: rpmbuild -bs
+2021-10-29 09:00:18,316 - Finish: buildsrpm
+2021-10-29 09:00:18,322 - Start: clean chroot
+2021-10-29 09:00:20,755 - Finish: clean chroot
+2021-10-29 09:00:20,755 - Finish: run
+2021-10-29 09:00:23,801 - Mock Version: 2.12
+2021-10-29 09:00:27,171 - Start: yum update
+2021-10-29 09:00:30,437 - Finish: yum update
+2021-10-29 09:00:30,461 - Finish: chroot init
+2021-10-29 09:00:30,465 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:00:30,467 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:00:34,206 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:00:34,207 - Start: Outputting list of installed packages
+2021-10-29 09:00:34,444 - Finish: Outputting list of installed packages
+2021-10-29 09:00:34,445 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:01:01,098 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:01:01,098 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:01:01,100 - Start: clean chroot
+2021-10-29 09:01:09,590 - Finish: clean chroot
+2021-10-29 09:21:19,961 - Mock Version: 2.12
+2021-10-29 09:21:24,547 - Start: yum update
+2021-10-29 09:21:29,618 - Finish: yum update
+2021-10-29 09:21:29,623 - Finish: chroot init
+2021-10-29 09:21:29,626 - Start: buildsrpm
+2021-10-29 09:21:29,629 - Start: rpmbuild -bs
+2021-10-29 09:21:29,929 - Finish: rpmbuild -bs
+2021-10-29 09:21:29,930 - Finish: buildsrpm
+2021-10-29 09:21:29,932 - Start: clean chroot
+2021-10-29 09:21:32,299 - Finish: clean chroot
+2021-10-29 09:21:32,300 - Finish: run
+2021-10-29 09:21:35,263 - Mock Version: 2.12
+2021-10-29 09:21:38,525 - Start: yum update
+2021-10-29 09:21:42,114 - Finish: yum update
+2021-10-29 09:21:42,119 - Finish: chroot init
+2021-10-29 09:21:42,121 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:21:42,122 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:21:45,257 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:21:45,258 - Start: Outputting list of installed packages
+2021-10-29 09:21:45,465 - Finish: Outputting list of installed packages
+2021-10-29 09:21:45,465 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:22:12,581 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:22:12,581 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:22:12,583 - Start: clean chroot
+2021-10-29 09:22:20,169 - Finish: clean chroot
+2021-10-29 09:23:52,425 - Mock Version: 2.12
+2021-10-29 09:23:55,789 - Start: yum update
+2021-10-29 09:24:00,292 - Finish: yum update
+2021-10-29 09:24:00,297 - Finish: chroot init
+2021-10-29 09:24:00,301 - Start: buildsrpm
+2021-10-29 09:24:00,304 - Start: rpmbuild -bs
+2021-10-29 09:24:00,596 - Finish: rpmbuild -bs
+2021-10-29 09:24:00,598 - Finish: buildsrpm
+2021-10-29 09:24:00,599 - Start: clean chroot
+2021-10-29 09:24:02,996 - Finish: clean chroot
+2021-10-29 09:24:02,996 - Finish: run
+2021-10-29 09:24:05,977 - Mock Version: 2.12
+2021-10-29 09:24:09,259 - Start: yum update
+2021-10-29 09:24:12,065 - Finish: yum update
+2021-10-29 09:24:12,090 - Finish: chroot init
+2021-10-29 09:24:12,096 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:24:12,098 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:24:15,775 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:24:15,775 - Start: Outputting list of installed packages
+2021-10-29 09:24:15,983 - Finish: Outputting list of installed packages
+2021-10-29 09:24:15,984 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:24:43,726 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:24:43,726 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:24:43,728 - Start: clean chroot
+2021-10-29 09:24:50,991 - Finish: clean chroot
+2021-10-29 09:26:13,677 - Mock Version: 2.12
+2021-10-29 09:26:18,685 - Start: yum update
+2021-10-29 09:26:21,694 - Finish: yum update
+2021-10-29 09:26:21,699 - Finish: chroot init
+2021-10-29 09:26:21,703 - Start: buildsrpm
+2021-10-29 09:26:21,706 - Start: rpmbuild -bs
+2021-10-29 09:26:22,006 - Finish: rpmbuild -bs
+2021-10-29 09:26:22,008 - Finish: buildsrpm
+2021-10-29 09:26:22,009 - Start: clean chroot
+2021-10-29 09:26:24,443 - Finish: clean chroot
+2021-10-29 09:26:24,444 - Finish: run
+2021-10-29 09:26:27,527 - Mock Version: 2.12
+2021-10-29 09:26:31,086 - Start: yum update
+2021-10-29 09:26:34,223 - Finish: yum update
+2021-10-29 09:26:34,248 - Finish: chroot init
+2021-10-29 09:26:34,252 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:26:34,255 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:26:38,379 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:26:38,380 - Start: Outputting list of installed packages
+2021-10-29 09:26:38,589 - Finish: Outputting list of installed packages
+2021-10-29 09:26:38,590 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:27:06,670 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:27:06,670 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:27:06,672 - Start: clean chroot
+2021-10-29 09:27:14,475 - Finish: clean chroot
+2021-10-29 09:39:32,609 - Mock Version: 2.12
+2021-10-29 09:39:36,823 - Start: yum update
+2021-10-29 09:39:41,272 - Finish: yum update
+2021-10-29 09:39:41,283 - Finish: chroot init
+2021-10-29 09:39:41,290 - Start: buildsrpm
+2021-10-29 09:39:41,296 - Start: rpmbuild -bs
+2021-10-29 09:39:41,601 - Finish: rpmbuild -bs
+2021-10-29 09:39:41,603 - Finish: buildsrpm
+2021-10-29 09:39:41,604 - Start: clean chroot
+2021-10-29 09:39:44,016 - Finish: clean chroot
+2021-10-29 09:39:44,017 - Finish: run
+2021-10-29 09:39:46,981 - Mock Version: 2.12
+2021-10-29 09:39:50,263 - Start: yum update
+2021-10-29 09:39:53,906 - Finish: yum update
+2021-10-29 09:39:53,911 - Finish: chroot init
+2021-10-29 09:39:53,913 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:39:53,914 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:39:57,010 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:39:57,011 - Start: Outputting list of installed packages
+2021-10-29 09:39:57,219 - Finish: Outputting list of installed packages
+2021-10-29 09:39:57,220 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:40:27,341 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:40:27,341 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:40:27,343 - Start: clean chroot
+2021-10-29 09:40:35,119 - Finish: clean chroot
+2021-10-29 09:44:46,887 - Mock Version: 2.12
+2021-10-29 09:44:50,484 - Start: yum update
+2021-10-29 09:44:54,961 - Finish: yum update
+2021-10-29 09:44:54,966 - Finish: chroot init
+2021-10-29 09:44:54,970 - Start: buildsrpm
+2021-10-29 09:44:54,973 - Start: rpmbuild -bs
+2021-10-29 09:44:55,291 - Finish: rpmbuild -bs
+2021-10-29 09:44:55,293 - Finish: buildsrpm
+2021-10-29 09:44:55,294 - Start: clean chroot
+2021-10-29 09:44:57,715 - Finish: clean chroot
+2021-10-29 09:44:57,716 - Finish: run
+2021-10-29 09:45:00,738 - Mock Version: 2.12
+2021-10-29 09:45:03,762 - Start: yum update
+2021-10-29 09:45:08,606 - Finish: yum update
+2021-10-29 09:45:08,611 - Finish: chroot init
+2021-10-29 09:45:08,613 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:45:08,614 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:45:11,662 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:45:11,662 - Start: Outputting list of installed packages
+2021-10-29 09:45:11,873 - Finish: Outputting list of installed packages
+2021-10-29 09:45:11,874 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:45:38,905 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:45:38,905 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:45:38,907 - Start: clean chroot
+2021-10-29 09:45:46,719 - Finish: clean chroot
+2021-10-29 09:51:11,167 - Mock Version: 2.12
+2021-10-29 09:51:14,870 - Start: yum update
+2021-10-29 09:51:19,926 - Finish: yum update
+2021-10-29 09:51:19,931 - Finish: chroot init
+2021-10-29 09:51:19,935 - Start: buildsrpm
+2021-10-29 09:51:19,938 - Start: rpmbuild -bs
+2021-10-29 09:51:20,326 - Finish: rpmbuild -bs
+2021-10-29 09:51:20,328 - Finish: buildsrpm
+2021-10-29 09:51:20,329 - Start: clean chroot
+2021-10-29 09:51:22,720 - Finish: clean chroot
+2021-10-29 09:51:22,721 - Finish: run
+2021-10-29 09:51:25,714 - Mock Version: 2.12
+2021-10-29 09:51:29,025 - Start: yum update
+2021-10-29 09:51:32,450 - Finish: yum update
+2021-10-29 09:51:32,468 - Finish: chroot init
+2021-10-29 09:51:32,474 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:51:32,476 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:51:35,759 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:51:35,759 - Start: Outputting list of installed packages
+2021-10-29 09:51:35,969 - Finish: Outputting list of installed packages
+2021-10-29 09:51:35,970 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:52:03,587 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:52:03,587 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 09:52:03,589 - Start: clean chroot
+2021-10-29 09:52:11,920 - Finish: clean chroot
+2021-10-29 09:58:31,133 - Mock Version: 2.12
+2021-10-29 09:58:34,925 - Start: yum update
+2021-10-29 09:58:39,764 - Finish: yum update
+2021-10-29 09:58:39,789 - Finish: chroot init
+2021-10-29 09:58:39,799 - Start: buildsrpm
+2021-10-29 09:58:39,805 - Start: rpmbuild -bs
+2021-10-29 09:58:40,109 - Finish: rpmbuild -bs
+2021-10-29 09:58:40,111 - Finish: buildsrpm
+2021-10-29 09:58:40,112 - Start: clean chroot
+2021-10-29 09:58:42,588 - Finish: clean chroot
+2021-10-29 09:58:42,589 - Finish: run
+2021-10-29 10:14:13,510 - Mock Version: 2.12
+2021-10-29 10:14:16,986 - Start: yum update
+2021-10-29 10:14:22,028 - Finish: yum update
+2021-10-29 10:14:22,033 - Finish: chroot init
+2021-10-29 10:14:22,037 - Start: buildsrpm
+2021-10-29 10:14:22,040 - Start: rpmbuild -bs
+2021-10-29 10:14:22,332 - Finish: rpmbuild -bs
+2021-10-29 10:14:22,333 - Finish: buildsrpm
+2021-10-29 10:14:22,335 - Start: clean chroot
+2021-10-29 10:14:24,754 - Finish: clean chroot
+2021-10-29 10:14:24,755 - Finish: run
+2021-10-29 10:14:27,741 - Mock Version: 2.12
+2021-10-29 10:14:31,031 - Start: yum update
+2021-10-29 10:14:35,226 - Finish: yum update
+2021-10-29 10:14:35,231 - Finish: chroot init
+2021-10-29 10:14:35,233 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:14:35,234 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:14:38,839 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:14:38,840 - Start: Outputting list of installed packages
+2021-10-29 10:14:39,054 - Finish: Outputting list of installed packages
+2021-10-29 10:14:39,054 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:15:07,744 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:15:07,744 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:15:07,746 - Start: clean chroot
+2021-10-29 10:15:15,758 - Finish: clean chroot
+2021-10-29 10:15:38,110 - Mock Version: 2.12
+2021-10-29 10:15:41,690 - Start: yum update
+2021-10-29 10:15:45,670 - Finish: yum update
+2021-10-29 10:15:45,675 - Finish: chroot init
+2021-10-29 10:15:45,679 - Start: buildsrpm
+2021-10-29 10:15:45,681 - Start: rpmbuild -bs
+2021-10-29 10:15:46,007 - Finish: rpmbuild -bs
+2021-10-29 10:15:46,009 - Finish: buildsrpm
+2021-10-29 10:15:46,010 - Start: clean chroot
+2021-10-29 10:15:48,426 - Finish: clean chroot
+2021-10-29 10:15:48,426 - Finish: run
+2021-10-29 10:15:51,435 - Mock Version: 2.12
+2021-10-29 10:15:54,742 - Start: yum update
+2021-10-29 10:15:58,276 - Finish: yum update
+2021-10-29 10:15:58,281 - Finish: chroot init
+2021-10-29 10:15:58,283 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:15:58,284 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:16:02,228 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:16:02,229 - Start: Outputting list of installed packages
+2021-10-29 10:16:02,458 - Finish: Outputting list of installed packages
+2021-10-29 10:16:02,458 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:16:31,383 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:16:31,383 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:16:31,385 - Start: clean chroot
+2021-10-29 10:16:39,210 - Finish: clean chroot
+2021-10-29 10:17:53,601 - Mock Version: 2.12
+2021-10-29 10:17:57,011 - Start: yum update
+2021-10-29 10:18:02,008 - Finish: yum update
+2021-10-29 10:18:02,013 - Finish: chroot init
+2021-10-29 10:18:02,017 - Start: buildsrpm
+2021-10-29 10:18:02,020 - Start: rpmbuild -bs
+2021-10-29 10:18:02,399 - Finish: rpmbuild -bs
+2021-10-29 10:18:02,401 - Finish: buildsrpm
+2021-10-29 10:18:02,403 - Start: clean chroot
+2021-10-29 10:18:04,785 - Finish: clean chroot
+2021-10-29 10:18:04,786 - Finish: run
+2021-10-29 10:18:07,757 - Mock Version: 2.12
+2021-10-29 10:18:11,296 - Start: yum update
+2021-10-29 10:18:16,227 - Finish: yum update
+2021-10-29 10:18:16,232 - Finish: chroot init
+2021-10-29 10:18:16,234 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:18:16,235 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:18:19,745 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:18:19,746 - Start: Outputting list of installed packages
+2021-10-29 10:18:19,952 - Finish: Outputting list of installed packages
+2021-10-29 10:18:19,953 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:18:46,523 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:18:46,523 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:18:46,525 - Start: clean chroot
+2021-10-29 10:18:54,030 - Finish: clean chroot
+2021-10-29 10:22:14,958 - Mock Version: 2.12
+2021-10-29 10:22:18,181 - Start: yum update
+2021-10-29 10:22:22,976 - Finish: yum update
+2021-10-29 10:22:22,981 - Finish: chroot init
+2021-10-29 10:22:22,985 - Start: buildsrpm
+2021-10-29 10:22:22,988 - Start: rpmbuild -bs
+2021-10-29 10:22:23,284 - Finish: rpmbuild -bs
+2021-10-29 10:22:23,286 - Finish: buildsrpm
+2021-10-29 10:22:23,287 - Start: clean chroot
+2021-10-29 10:22:25,651 - Finish: clean chroot
+2021-10-29 10:22:25,652 - Finish: run
+2021-10-29 10:22:28,608 - Mock Version: 2.12
+2021-10-29 10:22:33,132 - Start: yum update
+2021-10-29 10:22:37,060 - Finish: yum update
+2021-10-29 10:22:37,065 - Finish: chroot init
+2021-10-29 10:22:37,067 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:22:37,068 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:22:40,844 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:22:40,844 - Start: Outputting list of installed packages
+2021-10-29 10:22:41,051 - Finish: Outputting list of installed packages
+2021-10-29 10:22:41,051 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:23:07,748 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:23:07,748 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:23:07,750 - Start: clean chroot
+2021-10-29 10:23:15,067 - Finish: clean chroot
+2021-10-29 10:24:53,057 - Mock Version: 2.12
+2021-10-29 10:24:56,290 - Start: yum update
+2021-10-29 10:25:00,050 - Finish: yum update
+2021-10-29 10:25:00,055 - Finish: chroot init
+2021-10-29 10:25:00,059 - Start: buildsrpm
+2021-10-29 10:25:00,062 - Start: rpmbuild -bs
+2021-10-29 10:25:00,388 - Finish: rpmbuild -bs
+2021-10-29 10:25:00,390 - Finish: buildsrpm
+2021-10-29 10:25:00,391 - Start: clean chroot
+2021-10-29 10:25:02,795 - Finish: clean chroot
+2021-10-29 10:25:02,796 - Finish: run
+2021-10-29 10:25:05,766 - Mock Version: 2.12
+2021-10-29 10:25:09,565 - Start: yum update
+2021-10-29 10:26:14,497 - Finish: yum update
+2021-10-29 10:26:14,502 - Finish: chroot init
+2021-10-29 10:26:14,504 - Start: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:26:14,505 - Start: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:26:17,881 - Finish: build setup for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:26:17,881 - Start: Outputting list of installed packages
+2021-10-29 10:26:18,092 - Finish: Outputting list of installed packages
+2021-10-29 10:26:18,093 - Start: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:26:45,342 - Finish: rpmbuild redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:26:45,342 - Finish: build phase for redborder-logstash-plugins-1.0.2-1.el7.rb.src.rpm
+2021-10-29 10:26:45,344 - Start: clean chroot
+2021-10-29 10:26:53,765 - Finish: clean chroot
