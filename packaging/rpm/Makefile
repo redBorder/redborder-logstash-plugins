@@ -17,17 +17,15 @@ SOURCES:
 archive: SOURCES
 	cd ../../ && \
 	git archive --prefix=$(PACKAGE_NAME)-$(VERSION)/ \
-		-o packaging/rpm/SOURCES/$(PACKAGE_NAME)-$(VERSION).tar.gz HEAD
+		-o packaging/rpm/SOURCES/$(PACKAGE_NAME)-$(VERSION).tar HEAD
 	@echo Running git archive submodules...
-	pwd
-	cd ../../ &&  pwd && ls &&\
+	cd ../../ && \
 	p=`pwd` && (echo .; git submodule foreach) | while read entering path; do \
 			temp="$${path%'}"; \
 			temp="$${temp#'}"; \
-#			path=$$temp; \
-			path=$(echo $$temp | sed "s/'//g"); \
+			path=$$(echo $$temp | sed "s/'//g"); \
 			[ "$$path" = "" ] && continue; \
-			(cd $$path && git archive --prefix=$(PACKAGE_NAME)-$(VERSION)/$$path/ HEAD > $$p/tmp.tar && tar --concatenate --file=packaging/rpm/SOURCES/$(PACKAGE_NAME)-$(VERSION).tar.gz $$p/tmp.tar && rm $$p/tmp.tar); \
+			(cd $$path && git archive --prefix=$(PACKAGE_NAME)-$(VERSION)/$$path/ HEAD > $$p/tmp.tar && tar --concatenate --file=$$p/packaging/rpm/SOURCES/$(PACKAGE_NAME)-$(VERSION).tar $$p/tmp.tar && rm $$p/tmp.tar); \
 	done
 
 
