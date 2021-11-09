@@ -34,18 +34,24 @@ export LOGSTASH_HOME="/usr/share/logstash/"
 
 
 #Install Dependencies
-/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-core-plugin-api -v ">= 2.1.12, <= 2.99" -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
-echo "logstash-core logstash-input-s3 logstash-input-file logstash-input-beats" | while read -r line;
-do
-   /usr/share/logstash/vendor/jruby/bin/jruby -S gem install $line -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
-done
+/usr/share/logstash/vendor/jruby/bin/jruby -S gem install rubyzip -v 1.3.0 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
+/usr/share/logstash/vendor/jruby/bin/jruby -S gem install gems -v 1.2.0 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
+/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-codec-plain -v 3.1.0 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
+
+/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-input-file -v 4.1.11 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
+/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-input-s3 -v 3.4.1 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
+/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-input-beats -v 6.0.3 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
+/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-patterns-core -v 4.1.2 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
 
 #Install Redborder Filters
 ls | while read -r line;
 do
    if [[ $line == *"logstash-"* ]]; then
-     /usr/share/logstash/vendor/jruby/bin/jruby -S gem build $line/$line -v
-     /usr/share/logstash/vendor/jruby/bin/jruby -S gem install $line*.gem -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
+    if [ -f $line/Gemfile.lock ]; then
+     rm $line/Gemfile.lock
+    fi
+    /usr/share/logstash/vendor/jruby/bin/jruby -S gem build $line/$line -v
+    /usr/share/logstash/vendor/jruby/bin/jruby -S gem install $line*.gem -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
    fi
 done
 
@@ -65,13 +71,13 @@ ls %{buildroot}%{plugins_path}gems/cache
 #Creating the offline-pack manually
 ls %{buildroot}%{plugins_path}gems/cache | while read -r line;
 do
-   if [[ $line != *"logstash-"* ]]; then
+   if [[ $line != *"logstash-"* && $line != "gems-"* ]]; then
     mv %{buildroot}%{plugins_path}gems/cache/$line %{buildroot}%{plugins_path}logstash/dependencies
    else
      if [[ $line == *"logstash-filter"* || $line == *"logstash-input"* ]]; then
         mv %{buildroot}%{plugins_path}gems/cache/$line %{buildroot}%{plugins_path}logstash/
      else
-        if [[ $line != *"logstash-core"* || $line != "gems-"* ]]; then
+        if [[ $line != *"logstash-core"* ]]; then
             mv %{buildroot}%{plugins_path}gems/cache/$line %{buildroot}%{plugins_path}logstash/dependencies
         fi
      fi
@@ -103,7 +109,7 @@ fi
 %doc
 
 %changelog
-* Mon Nov 8 2021 Javier Rodriguez <javiercrg@redborder.com> - 1.0.1-1
+* Mon Nov 8 2021 Javier Rodriguez <javiercrg@redborder.com> - 1.0.0-1
 - Create and install logstash-plugins package
 * Thu Oct 28 2021 Javier Rodriguez <javiercrg@redborder.com> - 1.0.0-1
 - first spec version
