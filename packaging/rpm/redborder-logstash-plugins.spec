@@ -50,8 +50,10 @@ do
     if [ -f $line/Gemfile.lock ]; then
      rm $line/Gemfile.lock
     fi
-    /usr/share/logstash/vendor/jruby/bin/jruby -S gem build $line/$line -v
+    cd $line
+    /usr/share/logstash/vendor/jruby/bin/jruby -S gem build $line.gemspec
     /usr/share/logstash/vendor/jruby/bin/jruby -S gem install $line*.gem -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
+    cd ..
    fi
 done
 
