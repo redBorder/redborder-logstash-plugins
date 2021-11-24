@@ -1,5 +1,6 @@
 %global cookbook_path /var/chef/cookbooks/logstash/
 %global plugins_path /share/logstash-plugins/
+%global mac_vendors_path /etc/objects/
 
 Name: redborder-logstash-plugins
 Version: %{__version}
@@ -57,6 +58,10 @@ do
    fi
 done
 
+#Install mac_vendors sample file
+mkdir -p %{buildroot}%{mac_vendors_path}
+cp -f logstash-filter-macvendorsenrich/samples/mac_vendors %{buildroot}%{mac_vendors_path}
+
 
 mkdir %{buildroot}%{plugins_path}gems
 cp -r /usr/share/logstash/vendor/bundle/jruby/2.5.0/cache/ %{buildroot}%{plugins_path}gems
@@ -107,6 +112,8 @@ fi
 %files
 %defattr(0755,root,root)
 %{plugins_path}
+%defattr(0755,root,root)
+%{mac_vendors_path}
 
 %doc
 
