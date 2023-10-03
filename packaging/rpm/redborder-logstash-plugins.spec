@@ -1,4 +1,3 @@
-%global cookbook_path /var/chef/cookbooks/logstash/
 %global plugins_path /share/logstash-plugins/
 %global mac_vendors_path /etc/objects/
 
@@ -6,118 +5,54 @@ Name: redborder-logstash-plugins
 Version: %{__version}
 Release: %{__release}%{?dist}
 BuildArch: noarch
-Summary: Logstash cookbook used to install redborder logstash plugins
+Summary: install redborder logstash plugins
 
 License: AGPL 3.0
 URL: https://github.com/redBorder/redborder-logstash-plugins
 Source0: %{name}-%{version}.tar
 
-BuildRequires: yum, curl, grep, sudo
+BuildRequires: logstash
+Requires: logstash
 
 %description
 %{summary}
 
 %prep
-
 %setup -qn %{name}-%{version}
+ls -d -1 logstash-filter-* 2>/dev/null > %{buildroot}logstash-plugin.conf || :
+ls -d -1 logstash-input-*  2>/dev/null >> %{buildroot}logstash-plugin.conf || :
+ls -d -1 logstash-output-*  2>/dev/null >> %{buildroot}logstash-plugin.conf || :
 
 %build
-yum install logstash
-yum install zip
-#yum install gnupg2
+export JAVA_HOME="/usr/share/logstash/jdk"
+
+while IFS= read -r plugin; do
+   pushd $plugin
+     /usr/share/logstash/vendor/jruby/bin/jruby -S gem build $plugin.gemspec
+   popd
+   /usr/share/logstash/bin/logstash-plugin install $PWD/$plugin/*.gem
+done < %{buildroot}logstash-plugin.conf
+
+/usr/share/logstash/bin/logstash-plugin prepare-offline-pack --output %{name}-%{version}.zip $(cat %{buildroot}logstash-plugin.conf | tr '\n' ' ')
 
 %install
 mkdir -p %{buildroot}%{plugins_path}
-
-export JAVA_HOME="/usr/share/logstash/jdk"
-export GEM_HOME="/opt/logstash/vendor/bundle/jruby/2.5.0/"
-export LOGSTASH_HOME="/usr/share/logstash/"
-
-
-#Install Dependencies
-/usr/share/logstash/vendor/jruby/bin/jruby -S gem install rubyzip -v 1.3.0 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
-/usr/share/logstash/vendor/jruby/bin/jruby -S gem install gems -v 1.2.0 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
-/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-codec-plain -v 3.1.0 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
-
-/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-input-file -v 4.1.11 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
-/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-input-s3 -v 3.4.1 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
-/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-input-beats -v 6.0.3 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
-/usr/share/logstash/vendor/jruby/bin/jruby -S gem install logstash-patterns-core -v 4.1.2 -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/ --ignore-dependencies
-
-#Install Redborder Filters
-ls | while read -r line;
-do
-   if [[ $line == *"logstash-"* ]]; then
-    if [ -f $line/Gemfile.lock ]; then
-     rm $line/Gemfile.lock
-    fi
-    cd $line
-    /usr/share/logstash/vendor/jruby/bin/jruby -S gem build $line.gemspec
-    /usr/share/logstash/vendor/jruby/bin/jruby -S gem install $line*.gem -i /usr/share/logstash/vendor/bundle/jruby/2.5.0/
-    cd ..
-   fi
-done
-
-#Install mac_vendors sample file
-mkdir -p %{buildroot}%{mac_vendors_path}
-cp -f logstash-filter-macvendorsenrich/samples/mac_vendors %{buildroot}%{mac_vendors_path}
-
-
-mkdir %{buildroot}%{plugins_path}gems
-cp -r /usr/share/logstash/vendor/bundle/jruby/2.5.0/cache/ %{buildroot}%{plugins_path}gems
-
-#cleaning cache install
-rm -rf /usr/share/logstash/vendor/bundle/jruby/2.5.0/
-
-mkdir %{buildroot}%{plugins_path}logstash
-mkdir %{buildroot}%{plugins_path}logstash/dependencies
-
-cd %{buildroot}%{plugins_path}
-ls %{buildroot}%{plugins_path}gems/cache
-
-#Creating the offline-pack manually
-ls %{buildroot}%{plugins_path}gems/cache | while read -r line;
-do
-   if [[ $line != *"logstash-"* && $line != "gems-"* ]]; then
-    mv %{buildroot}%{plugins_path}gems/cache/$line %{buildroot}%{plugins_path}logstash/dependencies
-   else
-     if [[ $line == *"logstash-filter"* || $line == *"logstash-input"* ]]; then
-        mv %{buildroot}%{plugins_path}gems/cache/$line %{buildroot}%{plugins_path}logstash/
-     else
-        if [[ $line != *"logstash-core"* ]]; then
-            mv %{buildroot}%{plugins_path}gems/cache/$line %{buildroot}%{plugins_path}logstash/dependencies
-        fi
-     fi
-   fi
-done
-
-cd %{buildroot}%{plugins_path}
-zip %{name}-%{version}.zip -r logstash/
-
-#cleaning gems
-rm -rf gems
-rm -rf logstash
+install -m 644 -p %{name}-%{version}.zip %{buildroot}%{plugins_path}
 
 %pre
 
 %post
-su - -s /bin/bash -c 'source /etc/profile && rvm gemset use default'
-
-if [ -f %{plugins_path}%{name}-%{version}.zip ]; then
-    /usr/share/logstash/bin/logstash-plugin install --no-verify file://%{plugins_path}%{name}-%{version}.zip 2>&1 | tee -a /root/.install-redborder-boot.log
-fi
-
-
+/usr/share/logstash/bin/logstash-plugin install --no-verify file://%{plugins_path}%{name}-%{version}.zip 2>&1 | tee -a /root/.install-logstash-plugins.log
 
 %files
 %defattr(0755,root,root)
 %{plugins_path}
-%defattr(0755,root,root)
-%{mac_vendors_path}
-
-%doc
+%defattr(0644,root,root)
+%{plugins_path}%{name}-%{version}.zip
 
 %changelog
+* Tue Oct 3 2023 David Vanhoucke <dvanhoucke@redborder.com> - 2.0.0-1
+- update spec using logstash-plugin install
 * Mon Nov 8 2021 Javier Rodriguez <javiercrg@redborder.com> - 1.0.0-1
 - Create and install logstash-plugins package
 * Thu Oct 28 2021 Javier Rodriguez <javiercrg@redborder.com> - 1.0.0-1
