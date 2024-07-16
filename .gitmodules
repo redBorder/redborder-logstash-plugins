@@ -43,3 +43,6 @@
 [submodule "logstash-input-redfish"]
 	path = logstash-input-redfish
 	url = git@github.com:redBorder/logstash-input-redfish.git
+[submodule "logstash-filter-incident-enrichment"]
+	path = logstash-filter-incident-enrichment
+	url = git@github.com:redBorder/logstash-filter-incident-enrichment.git
