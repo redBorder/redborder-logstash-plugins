@@ -31,14 +31,14 @@ jobs:
 
       - name: Run Docker Container
         run: docker run --privileged -d --name builder --network host rockylinux:9 /bin/sleep infinity
-
-      - name: Update Git Submodule
+     
+     - name: Update Git Submodules
         run: |
           git submodule init
           git submodule update
           git submodule update --remote
         env:
-         GITHUB_TOKEN: ${{secrets.PAT}}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
 
       - name: Install build tools RPM
         run: |
