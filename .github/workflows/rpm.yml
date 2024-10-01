@@ -32,6 +32,12 @@ jobs:
       - name: Run Docker Container
         run: docker run --privileged -d --name builder --network host rockylinux:9 /bin/sleep infinity
 
+      - name: Update Git Submodules & Submodule remote
+        run: |
+          git submodule init
+          git submodule update
+          git submodule update --remote
+
       - name: Install build tools RPM
         run: |
           docker cp ./ builder:/build
@@ -47,11 +53,7 @@ jobs:
       - name: Build RPM using mock
         run: |
           docker exec builder bash -c "git config --global --add safe.directory /build"
-          docker exec builder bash -c "cd /build/"
-          docker exec builder bash -c "git submodule init"
-          docker exec builder bash -c "git submodule update"
-          docker exec builder bash -c "git submodule update --remote"
-          docker exec builder bash -c "VERSION=${{ env.TAG }} make rpm"
+          docker exec builder bash -c "cd /build/ && VERSION=${{ env.TAG }} make rpm"
 
       - name: Copy RPMS
         run: |
