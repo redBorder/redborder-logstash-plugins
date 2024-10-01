@@ -4,13 +4,20 @@ rpm to install RedBorder Logstash Plugins in RedBorder NG.
 
 ### Platforms
 
-- Centos 7
+- Rocky Linux 9
 
 ### Steps
+- Clone project
 
-- Update submodules plugins using **git submodule update --init --recursive** 
+- Initialize submodules
+```
+git submodule init
+git submodule update
+```
+
+- Update submodules to latests versions
+```
+git submodule update --remote
+```
+
 - Create the rpm using **sudo make**
-- Install the package in your RedBorder NG
-
-## Authors
-Authors: Javier Rodríguez <javiercrg@redborder.com>
