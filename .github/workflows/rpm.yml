@@ -56,6 +56,7 @@ jobs:
         run: |
           docker exec builder bash -c "
             git config --global --add safe.directory /build && \
+            find /build -type d -name '.git' -execdir git config --global --add safe.directory '{}' \\; && \
             for dir in /build/*; do \
                 if [ -d \"$dir/.git\" ]; then \
                     git config --global --add safe.directory \"$dir\"; \
