@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+
     env:
       ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
@@ -38,7 +41,7 @@ jobs:
           git submodule update
           git submodule update --remote
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install build tools RPM
         run: |
