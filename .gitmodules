@@ -1,48 +1,49 @@
 [submodule "logstash-filter-apstate"]
-	path = logstash-filter-apstate
-	url = git@github.com:redBorder/logstash-filter-apstate.git
+    path = logstash-filter-apstate
+    url = https://github.com/redBorder/logstash-filter-apstate.git
 [submodule "logstash-filter-bulkstats"]
-	path = logstash-filter-bulkstats
-	url = git@github.com:redBorder/logstash-filter-bulkstats.git
+    path = logstash-filter-bulkstats
+    url = https://github.com/redBorder/logstash-filter-bulkstats.git
 [submodule "logstash-filter-darklist"]
-	path = logstash-filter-darklist
-	url = git@github.com:redBorder/logstash-filter-darklist.git
+    path = logstash-filter-darklist
+    url = https://github.com/redBorder/logstash-filter-darklist.git
 [submodule "logstash-filter-intrusion"]
-	path = logstash-filter-intrusion
-	url = git@github.com:redBorder/logstash-filter-intrusion.git
+    path = logstash-filter-intrusion
+    url = https://github.com/redBorder/logstash-filter-intrusion.git
 [submodule "logstash-filter-location"]
-	path = logstash-filter-location
-	url = git@github.com:redBorder/logstash-filter-location.git
+    path = logstash-filter-location
+    url = https://github.com/redBorder/logstash-filter-location.git
 [submodule "logstash-filter-macscrambling"]
-	path = logstash-filter-macscrambling
-	url = git@github.com:redBorder/logstash-filter-macscrambling.git
+    path = logstash-filter-macscrambling
+    url = https://github.com/redBorder/logstash-filter-macscrambling.git
 [submodule "logstash-filter-macvendorsenrich"]
-	path = logstash-filter-macvendorsenrich
-	url = git@github.com:redBorder/logstash-filter-macvendorsenrich.git
+    path = logstash-filter-macvendorsenrich
+    url = https://github.com/redBorder/logstash-filter-macvendorsenrich.git
 [submodule "logstash-filter-meraki"]
-	path = logstash-filter-meraki
-	url = git@github.com:redBorder/logstash-filter-meraki.git
+    path = logstash-filter-meraki
+    url = https://github.com/redBorder/logstash-filter-meraki.git
 [submodule "logstash-filter-mobility"]
-	path = logstash-filter-mobility
-	url = git@github.com:redBorder/logstash-filter-mobility.git
+    path = logstash-filter-mobility
+    url = https://github.com/redBorder/logstash-filter-mobility.git
 [submodule "logstash-filter-mongocve"]
-        path = logstash-filter-mongocve
-        url = git@github.com:redBorder/logstash-filter-mongocve.git
+    path = logstash-filter-mongocve
+    url = https://github.com/redBorder/logstash-filter-mongocve.git
 [submodule "logstash-filter-netflowenrich"]
-	path = logstash-filter-netflowenrich
-	url = git@github.com:redBorder/logstash-filter-netflowenrich.git
+    path = logstash-filter-netflowenrich
+    url = https://github.com/redBorder/logstash-filter-netflowenrich.git
 [submodule "logstash-filter-nmsp"]
-	path = logstash-filter-nmsp
-	url = git@github.com:redBorder/logstash-filter-nmsp.git
+    path = logstash-filter-nmsp
+    url = https://github.com/redBorder/logstash-filter-nmsp.git
 [submodule "logstash-filter-radius"]
-	path = logstash-filter-radius
-	url = git@github.com:redBorder/logstash-filter-radius.git
+    path = logstash-filter-radius
+    url = https://github.com/redBorder/logstash-filter-radius.git
 [submodule "logstash-input-rbwindow"]
-	path = logstash-input-rbwindow
-	url = git@github.com:redBorder/logstash-input-rbwindow.git
+    path = logstash-input-rbwindow
+    url = https://github.com/redBorder/logstash-input-rbwindow.git
 [submodule "logstash-input-redfish"]
-	path = logstash-input-redfish
-	url = git@github.com:redBorder/logstash-input-redfish.git
+    path = logstash-input-redfish
+    url = https://github.com/redBorder/logstash-input-redfish.git
 [submodule "logstash-filter-incident-enrichment"]
-	path = logstash-filter-incident-enrichment
-	url = git@github.com:redBorder/logstash-filter-incident-enrichment.git
+    path = logstash-filter-incident-enrichment
+    url = https://github.com/redBorder/logstash-filter-incident-enrichment.git
+
