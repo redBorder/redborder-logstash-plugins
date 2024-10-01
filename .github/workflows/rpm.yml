@@ -32,7 +32,7 @@ jobs:
       - name: Run Docker Container
         run: docker run --privileged -d --name builder --network host rockylinux:9 /bin/sleep infinity
      
-     - name: Update Git Submodules
+      - name: Update Git Submodules
         run: |
           git submodule init
           git submodule update
