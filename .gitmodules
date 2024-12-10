@@ -47,5 +47,5 @@
     path = logstash-filter-incident-enrichment
     url = https://github.com/redBorder/logstash-filter-incident-enrichment.git
 [submodule "logstash-filter-threat-intelligence"]
-    path = logstash-input-redfish
-    url = https://github.com/redBorder/logstash-filter-threat-intelligence.git
+	path = logstash-filter-threat-intelligence
+	url = https://github.com/redBorder/logstash-filter-threat-intelligence.git
