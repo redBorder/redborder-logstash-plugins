@@ -49,3 +49,6 @@
 [submodule "logstash-filter-threat-intelligence"]
 	path = logstash-filter-threat-intelligence
 	url = https://github.com/redBorder/logstash-filter-threat-intelligence.git
+[submodule "logstash-filter-flow-reputation"]
+	path = logstash-filter-flow-reputation
+	url = https://github.com/redBorder/logstash-filter-flow-reputation.git
