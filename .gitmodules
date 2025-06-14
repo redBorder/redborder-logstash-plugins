@@ -4,9 +4,6 @@
 [submodule "logstash-filter-bulkstats"]
     path = logstash-filter-bulkstats
     url = https://github.com/redBorder/logstash-filter-bulkstats.git
-[submodule "logstash-filter-darklist"]
-    path = logstash-filter-darklist
-    url = https://github.com/redBorder/logstash-filter-darklist.git
 [submodule "logstash-filter-intrusion"]
     path = logstash-filter-intrusion
     url = https://github.com/redBorder/logstash-filter-intrusion.git
