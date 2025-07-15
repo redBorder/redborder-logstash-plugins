@@ -46,3 +46,6 @@
 [submodule "logstash-filter-threat-intelligence"]
 	path = logstash-filter-threat-intelligence
 	url = https://github.com/redBorder/logstash-filter-threat-intelligence.git
+[submodule "logstash-filter-druid-metrics"]
+	path = logstash-filter-druid-metrics
+	url = https://github.com/redBorder/logstash-filter-druid-metrics.git
