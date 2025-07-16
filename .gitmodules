@@ -46,3 +46,6 @@
 [submodule "logstash-filter-druid-metrics"]
 	path = logstash-filter-druid-metrics
 	url = https://github.com/redBorder/logstash-filter-druid-metrics.git
+[submodule "logstash-filter-postgrescve"]
+	path = logstash-filter-postgrescve
+	url = https://github.com/redBorder/logstash-filter-postgrescve.git
