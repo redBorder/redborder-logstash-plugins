@@ -22,9 +22,6 @@
 [submodule "logstash-filter-mobility"]
     path = logstash-filter-mobility
     url = https://github.com/redBorder/logstash-filter-mobility.git
-[submodule "logstash-filter-mongocve"]
-    path = logstash-filter-mongocve
-    url = https://github.com/redBorder/logstash-filter-mongocve.git
 [submodule "logstash-filter-netflowenrich"]
     path = logstash-filter-netflowenrich
     url = https://github.com/redBorder/logstash-filter-netflowenrich.git
@@ -49,3 +46,6 @@
 [submodule "logstash-filter-druid-metrics"]
 	path = logstash-filter-druid-metrics
 	url = https://github.com/redBorder/logstash-filter-druid-metrics.git
+[submodule "logstash-filter-postgrescve"]
+	path = logstash-filter-postgrescve
+	url = https://github.com/redBorder/logstash-filter-postgrescve.git
