@@ -49,3 +49,6 @@
 [submodule "logstash-filter-postgrescve"]
 	path = logstash-filter-postgrescve
 	url = https://github.com/redBorder/logstash-filter-postgrescve.git
+[submodule "logstash-filter-clamscan"]
+	path = logstash-filter-clamscan
+	url = git@github.com:redBorder/logstash-filter-clamscan.git
