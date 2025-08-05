@@ -52,3 +52,6 @@
 [submodule "logstash-filter-clamscan"]
 	path = logstash-filter-clamscan
 	url = git@github.com:redBorder/logstash-filter-clamscan.git
+[submodule "logstash-filter-aerospike-malware-score"]
+	path = logstash-filter-aerospike-malware-score
+	url = git@github.com:redBorder/logstash-filter-aerospike-malware-score.git
