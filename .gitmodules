@@ -55,6 +55,3 @@
 [submodule "logstash-filter-s3-upload-malware-results"]
 	path = logstash-filter-s3-upload-malware-results
 	url = https://github.com/redBorder/logstash-filter-s3-upload-malware-results.git
-[submodule "logstash-filter-aerospike-malware-score"]
-	path = logstash-filter-aerospike-malware-score
-	url = git@github.com:redBorder/logstash-filter-aerospike-malware-score.git
