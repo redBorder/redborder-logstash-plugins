@@ -55,3 +55,6 @@
 [submodule "logstash-filter-s3-upload-malware-results"]
 	path = logstash-filter-s3-upload-malware-results
 	url = https://github.com/redBorder/logstash-filter-s3-upload-malware-results.git
+[submodule "logstash-filter-virustotal"]
+	path = logstash-filter-virustotal
+	url = https://github.com/redBorder/logstash-filter-virustotal.git
