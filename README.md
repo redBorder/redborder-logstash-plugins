@@ -35,3 +35,9 @@ You will notice them because rather not making any change, the directory
 has changes unstaged; where 'git status' command is requesting to add them.
 
 Configuration of active filters is in .gitmodules
+
+## Build package
+
+```bash
+make rpm
+´´´
