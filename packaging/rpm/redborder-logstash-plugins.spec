@@ -37,7 +37,10 @@ done < %{buildroot}logstash-plugin.conf
 
 %install
 mkdir -p %{buildroot}%{plugins_path}
+mkdir -p %{buildroot}%{plugins_path}/scripts
+
 install -m 644 -p %{name}-%{version}.zip %{buildroot}%{plugins_path}
+install -m 755 -p %{_sourcedir}/scripts/* %{buildroot}%{plugins_path}/scripts/
 
 %pre
 
@@ -51,6 +54,8 @@ install -m 644 -p %{name}-%{version}.zip %{buildroot}%{plugins_path}
 %{plugins_path}%{name}-%{version}.zip
 
 %changelog
+* Mon Oct 20 2025 Luis Blanco <ljblanco@redborder.com>      - 
+- added directory to store and run scripts for any logstash plugin
 * Tue Oct 3 2023 David Vanhoucke <dvanhoucke@redborder.com> - 2.0.0-1
 - update spec using logstash-plugin install
 * Mon Nov 8 2021 Javier Rodriguez <javiercrg@redborder.com> - 1.0.0-1
