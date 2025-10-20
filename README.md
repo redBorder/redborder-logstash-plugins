@@ -1,32 +1,68 @@
 # redborder-logstash-plugins
 
-rpm to install RedBorder Logstash Plugins in RedBorder NG.
+General repository for custom filters in logstash that requires gem packaging.
 This repository uses git submodules https://git-scm.com/docs/git-submodule
 
-### Platforms
+# Requirements
 
 - Rocky Linux 9
 
-### Steps
+# Setup
+
+## Clone
 - Clone project
-
-- Initialize submodules
+```bash 
+git https://github.com/redBorder/redborder-logstash-plugins
 ```
+
+## Initialize submodules
+```bash 
 git submodule init
-git submodule update
+git submodule update --remote
 ```
 
-- Add a new submodule from a repo
+## Add a new submodule from a repo
 ``` bash
 git submodule add -- <repo_url>
 ```
 
-- Update submodules to latests versions
-```
-git submodule update --remote
+## Build package
+
+```bash
+make rpm
 ```
 
-- Create the rpm using **sudo make**
+# Development
+
+## Move all gems
+
+It is expected that you have created a new gem in the actual filter by installing from gemspec.
+Read particular README.md for the filter you are currently interested. 
+Then you can move them all at once by running...
+
+```bash
+scp_gems.sh -h <remote_host> -p <remote_path>
+```
+
+## Install a gem
+
+Now the gems are in the target host, they can be installed one by one with ...-
+```bash
+/usr/share/logstash/bin/logstash-plugin install </usr/share/logstash/vendor/bundle/jruby/2.5.0/cache/<the-gem-x.x.x.gem>
+```
+
+## Check installed filters
+
+```bash
+/usr/share/logstash/bin/logstash-plugin list
+```
+
+## Create the rpm using **sudo make**
+```bash
+make rpm
+```
+
+# Delete
 
 ## Archived plugins
 
@@ -36,8 +72,8 @@ has changes unstaged; where 'git status' command is requesting to add them.
 
 Configuration of active filters is in .gitmodules
 
-## Build package
+## Remove from a gem from host
 
 ```bash
-make rpm
-´´´
+/usr/share/logstash/bin/logstash-plugin remove logstash-filter-yara
+```
