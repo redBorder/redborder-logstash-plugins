@@ -41,20 +41,20 @@ Read particular README.md for the filter you are currently interested.
 Then you can move them all at once by running...
 
 ```bash
-scp_gems.sh -h <remote_host> -p <remote_path>
+scp_gems.sh -h <remote_host>
 ```
 
 ## Install a gem
 
 Now the gems are in the target host, they can be installed one by one with ...-
 ```bash
-/usr/share/logstash/bin/logstash-plugin install </usr/share/logstash/vendor/bundle/jruby/2.5.0/cache/<the-gem-x.x.x.gem>
+/usr/share/logstash/bin/logstash-plugin install --no-verify --local </usr/share/logstash/vendor/bundle/jruby/2.5.0/cache/<the-gem-x.x.x.gem>>
 ```
 
 ## Check installed filters
 
 ```bash
-/usr/share/logstash/bin/logstash-plugin list
+/usr/share/logstash/bin/logstash-plugin list --verbose
 ```
 
 ## Create the rpm using **sudo make**
