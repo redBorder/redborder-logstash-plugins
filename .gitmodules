@@ -61,3 +61,6 @@
 [submodule "logstash-filter-virustotal"]
 	path = logstash-filter-virustotal
 	url = https://github.com/redBorder/logstash-filter-virustotal.git
+[submodule "logstash-filter-ips"]
+	path = logstash-filter-ips
+	url = https://github.com/redBorder/logstash-filter-ips.git
