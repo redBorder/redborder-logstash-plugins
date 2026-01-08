@@ -64,3 +64,6 @@
 [submodule "logstash-filter-yara"]
 	path = logstash-filter-yara
 	url = https://github.com/redBorder/logstash-filter-yara.git
+[submodule "logstash-filter-ips"]
+	path = logstash-filter-ips
+	url = https://github.com/redBorder/logstash-filter-ips.git
